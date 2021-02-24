@@ -1,5 +1,8 @@
 name: 更新 WakaTime 状态
 on:
+  push: 
+    branches: 
+      - master
   schedule:
     - cron: "0 0 * * *"
 jobs:
